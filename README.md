@@ -199,6 +199,15 @@ This ensures:
 
 ---
 
+## Design Considerations
+
+- Clear separation between controller, service, and persistence layers
+- Global exception handling for consistent error responses
+- Use of DTOs to prevent direct exposure of entity models
+- H2 in-memory database for lightweight development and testing
+
+This structure ensures the application is maintainable, scalable, and aligned with RESTful best practices.
+
 ## Author
 
 Developed as part of an MSc assignment in Software Design with Cloud-Native Computing.
